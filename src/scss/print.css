@@ -7,17 +7,21 @@
     *::before,
     *::after {
       background: #fff !important;
-      color: red !important;
+      color: #000 !important;
       /* Black prints faster */
       box-shadow: none !important;
       text-shadow: none !important;
       border: none !important;
       background-color: none !important;
-      --bs-text-opacity: none !important;
+      --bs-text-opacity: none !important; 
     }
+    
     body > *:not(main) {
         display: none;
     }  
+    .v-image, .v-btn, .v-input__slot{
+      display: none;
+    }
     a,
     a:visited {
       text-decoration: underline;
