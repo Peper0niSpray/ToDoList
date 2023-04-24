@@ -40,10 +40,10 @@
                     </div>
                     <v-btn v-else @click="Login" outlined variant="plain"  class="ml-3 header__button" color="success">Вход</v-btn>
                     <v-list-item>
-                        <v-list-item-title><router-link to="../../../public/articles.json">Просмотр файла</router-link></v-list-item-title>
+                        <v-list-item-title><router-link to="/json">Просмотр файла</router-link></v-list-item-title>
                     </v-list-item>
                     <v-list-item>
-                        <v-list-item-title><router-link to="https://gitlab.com/Kat_masl/veb_vue">Гит</router-link></v-list-item-title>
+                        <v-list-item-title><a href="https://github.com/Peper0niSpray/Todolist">Git</a></v-list-item-title>
                     </v-list-item>
                 </v-list>
                 </v-menu>
