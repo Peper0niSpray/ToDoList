@@ -14,5 +14,8 @@ export default new Router({
     { path: '/news/:id', component: TheDetail },
     { path: '/contact', component: TheContact },
     { path: '/json', component: TheFile },
-  ]
+  ],
+  // scrollBehavior(to, from, savedPosition) {
+  //   return { x: 0, y: 0 }
+  // }
 })

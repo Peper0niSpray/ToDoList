@@ -4,24 +4,10 @@
       <template>
         <v-toolbar-items>
           <v-container>
-            <v-toolbar
-              flat
-            ><v-text-field
-                v-model="search"
-                append-icon="mdi-magnify"
-                label="Поиск по названию"
-                single-line
-              ></v-text-field>
+            <v-toolbar flat ><v-text-field v-model="search" append-icon="mdi-magnify" label="Поиск по названию" single-line></v-text-field>
               <div style="padding-left: 20px;"></div>
-              <v-select
-            clearable
-            v-model="sort"
-            :items="items"
-            width="0.5px"
-            label="Поиск по дате"
-            ></v-select>
+              <v-select clearable v-model="sort" :items="items" clear-icon="x" width="0.5px" label="Поиск по дате"> </v-select>
             </v-toolbar>
-            
           </v-container>
         </v-toolbar-items>
       </template>
