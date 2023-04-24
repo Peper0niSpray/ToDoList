@@ -19,7 +19,7 @@
                     <router-link to="/json">Просмотр файла</router-link>
                 </v-btn>
                 <v-btn text>
-                    <router-link to="https://gitlab.com/Kat_masl/veb_vue">Гит</router-link>
+                    <a href="https://github.com/Peper0niSpray/Todolist">Git</a>
                 </v-btn>
             </v-toolbar-items>
             <div class="hidden-sm-and-up">
