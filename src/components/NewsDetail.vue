@@ -6,8 +6,7 @@
                     <div class="row fill-height align-center justify-center">
                         <div class="text-left mb-4 col-md-6 col-12">
                             <h3 class="headline mb-3"> {{article.name}}
-                                    <v-btn depressed disabled plain
-                                    >
+                                    <v-btn depressed disabled plain>
                                         <p style="color: #0078d4; font-size: medium; margin-top: 15%;">{{article.date}}</p>
                                     </v-btn>
                             </h3>

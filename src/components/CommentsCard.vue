@@ -19,9 +19,7 @@
 
           <template v-for="(item) in items.slice(0, 6)">
 
-            <v-list-item
-              :key="item.title"
-            >
+            <v-list-item :key="item.title">
               <v-list-item-avatar>
                 <img src="https://cdn.vuetifyjs.com/images/lists/3.jpg" alt="avatar1">
               </v-list-item-avatar>
@@ -36,7 +34,7 @@
                 outlined
                 v-model="newComment"
                 name="input-7-4"
-                label="Add a comment"
+                label="Добавить комментарий"
                 value=" "
                 required=""
             ></v-textarea>
